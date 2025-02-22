@@ -34,6 +34,10 @@ class Book {
 
     public void returnBook() { bookCount++; }
 
+    public void updateBookCount(int newCount) {
+        this.bookCount = newCount;
+    }
+
     public void displayDetails() {
         System.out.println("Book: " + title + " by " + author + " (Genre: " + genre + ", Available: " + bookCount + ")");
     }
@@ -108,6 +112,16 @@ class Catalog {
         }
         return null;
     }
+
+    public void updateBookCount(String title, int newCount) {
+        Book book = findBookByTitle(title);
+        if (book != null) {
+            book.updateBookCount(newCount);
+            System.out.println("The count for '" + title + "' has been updated to " + newCount);
+        } else {
+            System.out.println("Book not found.");
+        }
+    }
 }
 
 // Main class to run the simulation
@@ -147,7 +161,7 @@ public class LibrarySystem {
         User user = new User(userName);
 
         while (true) {
-            System.out.println("\n1. Display Books\n2. Borrow Book\n3. Return Book\n4. Exit");
+            System.out.println("\n1. Display Books\n2. Borrow Book\n3. Return Book\n4. Update Book Count\n5. Exit");
             System.out.print("Choose an option: ");
             int choice = scanner.nextInt();
             scanner.nextLine();
@@ -177,6 +191,14 @@ public class LibrarySystem {
                     }
                     break;
                 case 4:
+                    System.out.print("Enter book title to update count: ");
+                    String updateTitle = scanner.nextLine();
+                    System.out.print("Enter new book count: ");
+                    int newCount = scanner.nextInt();
+                    scanner.nextLine();
+                    catalog.updateBookCount(updateTitle, newCount);
+                    break;
+                case 5:
                     System.out.println("Exiting...\n");
                     scanner.close();
                     return;
