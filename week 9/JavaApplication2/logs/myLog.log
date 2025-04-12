@@ -1,0 +1,12 @@
+2025-03-17 12:05:10,522 INFO j.JavaApplication2 [main] This is an INFO level message
+2025-03-17 12:05:10,522 WARN j.JavaApplication2 [main] This is a WARN level message
+2025-03-17 12:05:10,522 ERROR j.JavaApplication2 [main] This is an ERROR level message
+2025-03-17 12:05:10,522 FATAL j.JavaApplication2 [main] This is a FATAL level message
+2025-03-19 11:13:59,405 INFO j.JavaApplication2 [main] This is an INFO level message
+2025-03-19 11:13:59,421 WARN j.JavaApplication2 [main] This is a WARN level message
+2025-03-19 11:13:59,421 ERROR j.JavaApplication2 [main] This is an ERROR level message
+2025-03-19 11:13:59,421 FATAL j.JavaApplication2 [main] This is a FATAL level message
+2025-03-22 10:39:45,595 INFO j.JavaApplication2 [main] This is an INFO level message
+2025-03-22 10:39:45,611 WARN j.JavaApplication2 [main] This is a WARN level message
+2025-03-22 10:39:45,611 ERROR j.JavaApplication2 [main] This is an ERROR level message
+2025-03-22 10:39:45,611 FATAL j.JavaApplication2 [main] This is a FATAL level message

@@ -1,0 +1,125 @@
+2025-03-26 10:33:07,545 ERROR w.Problem2 [main] Error: 
+week_10.DatabaseConnectionException: Failed to connect to the database.
+	at week_10.Problem2.getConnection(Problem2.java:19) ~[classes/:?]
+	at week_10.Problem2.executeQueries(Problem2.java:36) ~[classes/:?]
+	at week_10.Problem2.main(Problem2.java:87) [classes/:?]
+Caused by: java.sql.SQLException: ORA-01017: invalid username/password; logon denied
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:447) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:389) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:382) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIfun.processError(T4CTTIfun.java:675) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIoauthenticate.processError(T4CTTIoauthenticate.java:448) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:513) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:227) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:383) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:776) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:432) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:553) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:254) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:528) ~[ojdbc6.jar:11.2.0.4.0]
+	at java.sql.DriverManager.getConnection(DriverManager.java:664) ~[?:1.8.0_171]
+	at java.sql.DriverManager.getConnection(DriverManager.java:247) ~[?:1.8.0_171]
+	at week_10.Problem2.getConnection(Problem2.java:17) ~[classes/:?]
+	... 2 more
+2025-03-26 10:34:31,005 ERROR w.Problem2 [main] Error: 
+week_10.DatabaseConnectionException: Failed to connect to the database.
+	at week_10.Problem2.getConnection(Problem2.java:20) ~[classes/:?]
+	at week_10.Problem2.executeQueries(Problem2.java:37) ~[classes/:?]
+	at week_10.Problem2.main(Problem2.java:92) [classes/:?]
+Caused by: java.sql.SQLException: ORA-01017: invalid username/password; logon denied
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:447) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:389) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:382) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIfun.processError(T4CTTIfun.java:675) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIoauthenticate.processError(T4CTTIoauthenticate.java:448) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:513) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:227) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:383) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:776) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:432) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:553) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:254) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:528) ~[ojdbc6.jar:11.2.0.4.0]
+	at java.sql.DriverManager.getConnection(DriverManager.java:664) ~[?:1.8.0_171]
+	at java.sql.DriverManager.getConnection(DriverManager.java:247) ~[?:1.8.0_171]
+	at week_10.Problem2.getConnection(Problem2.java:18) ~[classes/:?]
+	... 2 more
+2025-03-26 10:36:26,164 ERROR w.Problem2 [main] Error: 
+week_10.DatabaseConnectionException: Failed to connect to the database.
+	at week_10.Problem3.getConnection(Problem3.java:19) ~[classes/:?]
+	at week_10.Problem3.executeQueries(Problem3.java:36) ~[classes/:?]
+	at week_10.Problem3.main(Problem3.java:87) [classes/:?]
+Caused by: java.sql.SQLException: ORA-01017: invalid username/password; logon denied
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:447) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:389) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:382) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIfun.processError(T4CTTIfun.java:675) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIoauthenticate.processError(T4CTTIoauthenticate.java:448) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:513) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:227) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:383) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:776) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:432) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:553) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:254) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:528) ~[ojdbc6.jar:11.2.0.4.0]
+	at java.sql.DriverManager.getConnection(DriverManager.java:664) ~[?:1.8.0_171]
+	at java.sql.DriverManager.getConnection(DriverManager.java:247) ~[?:1.8.0_171]
+	at week_10.Problem3.getConnection(Problem3.java:17) ~[classes/:?]
+	... 2 more
+2025-03-26 10:43:10,010 ERROR w.Problem2 [main] Error: 
+week_10.DatabaseConnectionException: Failed to connect to the database.
+	at week_10.Problem3.getConnection(Problem3.java:19) ~[classes/:?]
+	at week_10.Problem3.executeQueries(Problem3.java:36) ~[classes/:?]
+	at week_10.Problem3.main(Problem3.java:87) [classes/:?]
+Caused by: java.sql.SQLException: ORA-01017: invalid username/password; logon denied
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:447) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:389) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:382) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIfun.processError(T4CTTIfun.java:675) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIoauthenticate.processError(T4CTTIoauthenticate.java:448) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:513) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:227) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:383) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:776) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:432) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:553) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:254) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:528) ~[ojdbc6.jar:11.2.0.4.0]
+	at java.sql.DriverManager.getConnection(DriverManager.java:664) ~[?:1.8.0_171]
+	at java.sql.DriverManager.getConnection(DriverManager.java:247) ~[?:1.8.0_171]
+	at week_10.Problem3.getConnection(Problem3.java:17) ~[classes/:?]
+	... 2 more
+2025-04-09 11:37:51,578 ERROR w.Problem2 [main] Error: 
+week_10.DatabaseConnectionException: Failed to connect to the database.
+	at week_10.Problem3.getConnection(Problem3.java:19) ~[classes/:?]
+	at week_10.Problem3.executeQueries(Problem3.java:36) ~[classes/:?]
+	at week_10.Problem3.main(Problem3.java:87) [classes/:?]
+Caused by: java.sql.SQLException: ORA-01017: invalid username/password; logon denied
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:447) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:389) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:382) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIfun.processError(T4CTTIfun.java:675) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIoauthenticate.processError(T4CTTIoauthenticate.java:448) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:513) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:227) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:383) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:776) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:432) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:553) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:254) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32) ~[ojdbc6.jar:11.2.0.4.0]
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:528) ~[ojdbc6.jar:11.2.0.4.0]
+	at java.sql.DriverManager.getConnection(DriverManager.java:664) ~[?:1.8.0_111]
+	at java.sql.DriverManager.getConnection(DriverManager.java:247) ~[?:1.8.0_111]
+	at week_10.Problem3.getConnection(Problem3.java:17) ~[classes/:?]
+	... 2 more
